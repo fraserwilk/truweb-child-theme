@@ -1,5 +1,5 @@
 <section class="<?php echo get_row_layout(); ?> px-4 py-5">
-<!-- <section class="container col-sm-8 px-0 py-5" id="frontpage-features"> -->
+
 
     <!-- Features container -->
     <h2 class="pb-2 border-bottom text-center">We solve people’s problems and make them happy</h2>
