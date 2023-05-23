@@ -92,3 +92,66 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+
+// Adds custom logo to the login page:
+function wpdev_filter_login_head() {
+
+	if ( has_custom_logo() ) :
+
+		$image = wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' );
+		?>
+		<style type="text/css">
+			.login h1 a {
+				background-image: url(<?php echo esc_url( $image[0] ); ?>);
+				-webkit-background-size: <?php echo absint( $image[1] )?>px;
+				background-size: <?php echo absint( $image[1] ) ?>px;
+				height: <?php echo absint( $image[2] ) ?>px;
+				width: <?php echo absint( $image[1] ) ?>px;
+			}
+		</style>
+		<?php
+	endif;
+}
+
+add_action( 'login_head', 'wpdev_filter_login_head', 100 );
+
+
+// replaces the link to wordpress.org with your homepage link.
+function new_wp_login_url() {
+	return home_url();
+}
+add_filter('login_headerurl', 'new_wp_login_url');
+
+
+
+/**
+ * Changes "site-info" for Understrap to a boilerplate copyright.
+ * Also adds Log In and Log Out links.
+ */
+function remove_parent_functions() {
+    remove_action( 'understrap_site_info', 'understrap_add_site_info' );
+    add_action( 'understrap_site_info', 'understrap_add_site_child_info' );
+}
+add_action( 'init', 'remove_parent_functions', 15 );
+
+function understrap_add_site_child_info() {
+	$current_year = date('Y'); // Get the current year
+	echo '<div class="container">
+	<footer class="py-0 my-0">
+	  <ul class="nav justify-content-center border-bottom border-primary pb-3 mb-3">
+		<li class="nav-item"><a href="' . site_url( ) . '" class="nav-link px-2 text-muted">Home</a></li>
+		<li class="nav-item"><a href="' . site_url( ) . '/tools" class="nav-link px-2 text-muted">Tools</a></li>
+		<li class="nav-item"><a href="' . site_url( ) . '/about" class="nav-link px-2 text-muted">About</a></li>
+		<li class="nav-item"><a href="' . site_url( ) . '/contact" class="nav-link px-2 text-muted">Contact</a></li>
+	  </ul>
+	  <div class="text-center text-muted">Site developed by Fraser Wilkinson • ' . '&copy; ' . $current_year . ' <a href="' . get_bloginfo( 'wpurl' ) . '">' . get_bloginfo( 'name' ) . '</a></div>
+	</footer>
+  </div>';
+
+}
+
+
+// require_once get_theme_file_path( 'inc/child-custom-post-types.php' );
+
