@@ -1,0 +1,620 @@
+{
+    "key": "group_645dd5c18c750",
+    "title": "Frontpage",
+    "fields": [
+        {
+            "key": "field_645dd9e588b1e",
+            "label": "Content Rows",
+            "name": "content_rows",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_645dd9f5ca7ee": {
+                    "key": "layout_645dd9f5ca7ee",
+                    "name": "frontpage_hero",
+                    "label": "Frontpage Hero",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_645dda1988b1f",
+                            "label": "Hero Background",
+                            "name": "hero_background",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_645dda3c88b20",
+                            "label": "Hero Heading",
+                            "name": "hero_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_645dda4788b21",
+                            "label": "Hero Content",
+                            "name": "hero_content",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_645dda5f88b22",
+                            "label": "Hero Button",
+                            "name": "hero_button",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Get in Touch": "Get in Touch",
+                                "Contact Me": "Contact Me"
+                            },
+                            "default_value": "",
+                            "return_format": "label",
+                            "allow_null": 0,
+                            "layout": "horizontal"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645df0bcd7ecd": {
+                    "key": "layout_645df0bcd7ecd",
+                    "name": "frontpage_portfolio",
+                    "label": "Frontpage Portfolio",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_645df0c3d7ecf",
+                            "label": "Portfolio Headline",
+                            "name": "portfolio_headline",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_645df103d7ed0",
+                            "label": "Portfolio Subheading",
+                            "name": "portfolio_subheading",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_645df11bd7ed1",
+                            "label": "Portfolio Projects",
+                            "name": "portfolio_projects",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Project",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_645df150d7ed2",
+                                    "label": "Project Title",
+                                    "name": "project_title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_645df163d7ed3",
+                                    "label": "Project Subtitle",
+                                    "name": "project_subtitle",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_645df173d7ed4",
+                                    "label": "Project Image",
+                                    "name": "project_image",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_6465a519c3c5d",
+                                    "label": "Project Description",
+                                    "name": "project_description",
+                                    "aria-label": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0,
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_6465a584c3c60",
+                                    "label": "Project Date",
+                                    "name": "project_date",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_6465a537c3c5e",
+                                    "label": "Project View URL",
+                                    "name": "project_view_url",
+                                    "aria-label": "",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_6465a552c3c5f",
+                                    "label": "Project Edit URL",
+                                    "name": "project_edit_url",
+                                    "aria-label": "",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6465c4a190d5c": {
+                    "key": "layout_6465c4a190d5c",
+                    "name": "frontpage_features",
+                    "label": "Frontpage Features",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_6465c4b190d5e",
+                            "label": "Features",
+                            "name": "features",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_64673edc00431",
+                                    "label": "Feature Title",
+                                    "name": "feature_title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6465c4b190d5e"
+                                },
+                                {
+                                    "key": "field_6465c55390d60",
+                                    "label": "Feature Body",
+                                    "name": "feature_body",
+                                    "aria-label": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0,
+                                    "parent_repeater": "field_6465c4b190d5e"
+                                },
+                                {
+                                    "key": "field_6465c4d890d5f",
+                                    "label": "Featured Icon xlink",
+                                    "name": "featured_icon_xlink",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "Go to: https:\/\/icons.getbootstrap.com\/\r\nFind your icon\r\nCopy the HTML & replace width & height with \"1em\" - eg. <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"1em\" height=\"1em\" fill=\"currentColor\" class=\"bi bi-8-circle-fill\" viewBox=\"0 0 16 16\">\r\n  <path d=\"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-5.03 1.803c0-1.248-.943-1.84-1.646-1.992v-.065c.598-.187 1.336-.72 1.336-1.781 0-1.225-1.084-2.121-2.654-2.121-1.57 0-2.66.896-2.66 2.12 0 1.044.709 1.589 1.33 1.782v.065c-.697.152-1.647.732-1.647 2.003 0 1.39 1.19 2.344 2.953 2.344 1.77 0 2.989-.96 2.989-2.355Zm-4.347-3.71c0 .739.586 1.255 1.383 1.255s1.377-.516 1.377-1.254c0-.733-.58-1.23-1.377-1.23s-1.383.497-1.383 1.23Zm-.281 3.645c0 .838.72 1.412 1.664 1.412.943 0 1.658-.574 1.658-1.412 0-.843-.715-1.424-1.658-1.424-.944 0-1.664.58-1.664 1.424Z\"\/>\r\n<\/svg>",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_6465c4b190d5e"
+                                },
+                                {
+                                    "key": "field_6465c57390d61",
+                                    "label": "Feature Button",
+                                    "name": "feature_button",
+                                    "aria-label": "",
+                                    "type": "button_group",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "Find out more": "Find out more",
+                                        "Contact me": "Contact me"
+                                    },
+                                    "default_value": "Find out more",
+                                    "return_format": "label",
+                                    "allow_null": 0,
+                                    "layout": "horizontal",
+                                    "parent_repeater": "field_6465c4b190d5e"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_646861aebe114": {
+                    "key": "layout_646861aebe114",
+                    "name": "frontpage_cta",
+                    "label": "Frontpage CTA",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_646861c5be116",
+                            "label": "CTA Title",
+                            "name": "cta_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_646861d8be117",
+                            "label": "CTA Body",
+                            "name": "cta_body",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_64686205be118",
+                            "label": "CTA Button One",
+                            "name": "cta_button_one",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Contact Us": "Contact Us",
+                                "Learn More": "Learn More"
+                            },
+                            "default_value": "Contact Us",
+                            "return_format": "label",
+                            "allow_null": 0,
+                            "layout": "horizontal"
+                        },
+                        {
+                            "key": "field_646b1c11a6ef0",
+                            "label": "CTA Button One Link",
+                            "name": "cta_button_one_link",
+                            "aria-label": "",
+                            "type": "page_link",
+                            "instructions": "link name without site_url()",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "60",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": "",
+                            "post_status": "",
+                            "taxonomy": "",
+                            "allow_archives": 1,
+                            "multiple": 0,
+                            "allow_null": 0
+                        },
+                        {
+                            "key": "field_6468623cbe119",
+                            "label": "CTA Button Two",
+                            "name": "cta_button_two",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Contact Us": "Contact Us",
+                                "Learn More": "Learn More"
+                            },
+                            "default_value": "Learn More",
+                            "return_format": "label",
+                            "allow_null": 0,
+                            "layout": "horizontal"
+                        },
+                        {
+                            "key": "field_646b1c40a6ef1",
+                            "label": "CTA Button Two Link",
+                            "name": "cta_button_two_link",
+                            "aria-label": "",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "60",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": "",
+                            "post_status": "",
+                            "taxonomy": "",
+                            "allow_archives": 1,
+                            "multiple": 0,
+                            "allow_null": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1684741475
+}
