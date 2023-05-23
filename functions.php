@@ -146,7 +146,7 @@ function understrap_add_site_child_info() {
 		<li class="nav-item"><a href="' . site_url( ) . '/about" class="nav-link px-2 text-muted">About</a></li>
 		<li class="nav-item"><a href="' . site_url( ) . '/contact" class="nav-link px-2 text-muted">Contact</a></li>
 	  </ul>
-	  <div class="text-center text-muted">Site developed by Fraser Wilkinson • ' . '&copy;' . $current_year . ' <a href="' . get_bloginfo( 'wpurl' ) . '">' . get_bloginfo( 'name' ) . '</a></div>
+	  <div class="text-center text-muted">Site developed by Fraser Wilkinson • ' . '&copy; ' . $current_year . ' <a href="' . get_bloginfo( 'wpurl' ) . '">' . get_bloginfo( 'name' ) . '</a></div>
 	</footer>
   </div>';
 

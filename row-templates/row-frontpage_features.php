@@ -1,7 +1,10 @@
-<section class="container col-sm-8 px-0 py-5" id="frontpage-features">
-    <h2 class="pb-2 border-bottom">We solve people’s problems and make them happy</h2>
+<section class="<?php echo get_row_layout(); ?> px-4 py-5">
+<!-- <section class="container col-sm-8 px-0 py-5" id="frontpage-features"> -->
 
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <!-- Features container -->
+    <h2 class="pb-2 border-bottom text-center">We solve people’s problems and make them happy</h2>
+
+    <div class="row g-4 py-5 px-sm-2 row-cols-1 row-cols-lg-3">
 
             <?php
 
@@ -26,7 +29,7 @@
                         '</div>
                         <div>
                             <h3 class="fs-2">' . $feature_title . '</h3>
-                            <p>' . $feature_body . '</p>
+                            <div>' . $feature_body . '</div>
                             
                         </div>
                     </div>';

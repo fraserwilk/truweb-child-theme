@@ -2,7 +2,7 @@
 
 <?php
 
-echo '<section class="bg-dark text-secondary px-4 py-5 text-center">
+echo '<section class="bg-dark text-light px-4 py-5 text-center">
     <div class="py-5">
 
       <h1 class="display-5 fw-bold text-white">' . get_sub_field('cta_title') . '</h1>
