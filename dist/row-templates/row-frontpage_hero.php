@@ -7,9 +7,9 @@
 
             <!-- ****** The Hero Area ****** -->
             <!-- Background image -->
-            <img src="<?php the_sub_field('hero_background'); ?>" id="frontpage-hero-img" class="d-block mx-md-auto p-0" alt="TruWeb Website Design & Development" loading="lazy";>
+            <img src="<?php the_sub_field('hero_background'); ?>" id="frontpage-hero-img" class="mx-md-auto p-0" alt="TruWeb Website Design & Development" loading="lazy";>
 
-            <div class="container col-xxl-8 px-4 py-5 position-absolute text-light">
+            <div class="container col-md-10 offset-md-1 px-5 py-5 position-absolute text-light">
                 <div class="row flex-lg-row align-items-center g-3 py-sm-5 mt-lg-5 mx-3">
                     <div class="col-10 col-sm-8 col-lg-6">
                     </div>

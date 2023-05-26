@@ -40,19 +40,47 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
-
+// $orange:  #FF9F68 !default; // TruWeb orange
+$orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 // scss-docs-end color-variables
 
-$orange: #FF9F68; // TruWeb orange
+
+$orange-100: #fff2e8 !default;
+$orange-200: #ffdfc4 !default;
+$orange-300: #fecba1 !default;
+$orange-400: #fea55b !default;
+$orange-500: #fd7e14 !default;
+$orange-600: #e47112 !default;
+$orange-700: #be5f0f !default;
+$orange-800: #984c0c !default;
+$orange-900: #7c3e0a !default;
+
+
+// fusv-disable
+// scss-docs-start orange-colors-map
+$oranges: (
+  "100": $orange-100,
+  "200": $orange-200,
+  "300": $orange-300,
+  "400": $orange-400,
+  "500": $orange-500,
+  "600": $orange-600,
+  "700": $orange-700,
+  "800": $orange-800,
+  "900": $orange-900
+) !default;
+// scss-docs-end orange-colors-map
+// fusv-enable
+
 
 
 // scss-docs-start theme-color-variables
 $primary:       $orange !default;
-$secondary:     $gray-600 !default;
+$secondary:     $orange-300 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -60,4 +88,6 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
+
+$font-family-base: 'Roboto', sans-serif;
 

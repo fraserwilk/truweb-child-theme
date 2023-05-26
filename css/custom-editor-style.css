@@ -412,7 +412,7 @@ progress {
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #FF9F68;
+  --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -430,16 +430,16 @@ progress {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #FF9F68;
-  --bs-secondary: #6c757d;
+  --bs-primary: #fd7e14;
+  --bs-secondary: #fecba1;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 159, 104;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 253, 126, 20;
+  --bs-secondary-rgb: 254, 203, 161;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -453,7 +453,7 @@ progress {
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Roboto, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -469,8 +469,8 @@ progress {
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #FF9F68;
-  --bs-link-hover-color: #cc7f53;
+  --bs-link-color: #fd7e14;
+  --bs-link-hover-color: #ca6510;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -553,13 +553,13 @@ progress {
 
 .table-primary {
   --bs-table-color: #000;
-  --bs-table-bg: #ffece1;
-  --bs-table-border-color: #e6d4cb;
-  --bs-table-striped-bg: #f2e0d6;
+  --bs-table-bg: #ffe5d0;
+  --bs-table-border-color: #e6cebb;
+  --bs-table-striped-bg: #f2dac6;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #e6d4cb;
+  --bs-table-active-bg: #e6cebb;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #ecdad0;
+  --bs-table-hover-bg: #ecd4c0;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -567,13 +567,13 @@ progress {
 
 .table-secondary {
   --bs-table-color: #000;
-  --bs-table-bg: #e2e3e5;
-  --bs-table-border-color: #cbccce;
-  --bs-table-striped-bg: #d7d8da;
+  --bs-table-bg: #fff5ec;
+  --bs-table-border-color: #e6ddd4;
+  --bs-table-striped-bg: #f2e9e0;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #cbccce;
+  --bs-table-active-bg: #e6ddd4;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #d1d2d4;
+  --bs-table-hover-bg: #ece3da;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -852,7 +852,7 @@ progress {
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #FF9F68;
+  --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -870,16 +870,16 @@ progress {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #FF9F68;
-  --bs-secondary: #6c757d;
+  --bs-primary: #fd7e14;
+  --bs-secondary: #fecba1;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 159, 104;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 253, 126, 20;
+  --bs-secondary-rgb: 254, 203, 161;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -893,7 +893,7 @@ progress {
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Roboto, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -909,8 +909,8 @@ progress {
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #FF9F68;
-  --bs-link-hover-color: #cc7f53;
+  --bs-link-color: #fd7e14;
+  --bs-link-hover-color: #ca6510;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -923,12 +923,12 @@ progress {
 
 .text-bg-primary {
   color: #000 !important;
-  background-color: RGBA(255, 159, 104, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(253, 126, 20, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
-  color: #fff !important;
-  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+  color: #000 !important;
+  background-color: RGBA(254, 203, 161, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -962,17 +962,17 @@ progress {
 }
 
 .link-primary {
-  color: #FF9F68 !important;
+  color: #fd7e14 !important;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #ffb286 !important;
+  color: #fd9843 !important;
 }
 
 .link-secondary {
-  color: #6c757d !important;
+  color: #fecba1 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64 !important;
+  color: #fed5b4 !important;
 }
 
 .link-success {
@@ -5163,16 +5163,16 @@ progress {
 
 .has-orange-color,
 .has-orange-color:visited {
-  color: #FF9F68;
+  color: #fd7e14;
 }
 
 .has-orange-background-color {
-  background-color: #FF9F68;
-  border-color: #FF9F68;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-orange-color {
-  color: #FF9F68;
+  color: #fd7e14;
 }
 
 .has-yellow-color,
@@ -5289,30 +5289,30 @@ progress {
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #FF9F68;
+  color: #fd7e14;
 }
 
 .has-primary-background-color {
-  background-color: #FF9F68;
-  border-color: #FF9F68;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-primary-color {
-  color: #FF9F68;
+  color: #fd7e14;
 }
 
 .has-secondary-color,
 .has-secondary-color:visited {
-  color: #6c757d;
+  color: #fecba1;
 }
 
 .has-secondary-background-color {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #fecba1;
+  border-color: #fecba1;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-secondary-color {
-  color: #6c757d;
+  color: #fecba1;
 }
 
 .has-success-color,
