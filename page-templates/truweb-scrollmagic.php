@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: TruWeb Full Width Page
+ * Template Name: TruWeb ScrollMagic
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -38,10 +38,7 @@ if ( is_page_template( 'page-templates/no-title.php' ) ) {
 						the_post();
 						get_template_part( 'loop-templates/content', 'page' );
 
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) {
-							comments_template();
-						}
+
 					}
 					?>
 

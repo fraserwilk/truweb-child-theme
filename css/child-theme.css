@@ -14045,6 +14045,19 @@ a.skip-link:not(:focus):not(:focus-within) {
   display: block;
 }
 
+section.card {
+  border: red solid 2px;
+  opacity: 0.3;
+  transform: translateY(20px);
+  transition: all ease 1s;
+}
+
+section.card.visible {
+  border: green solid 2px;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;

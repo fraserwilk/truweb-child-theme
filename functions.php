@@ -46,6 +46,11 @@ function theme_enqueue_styles() {
 	$js_version = $theme_version . '.' . filemtime( get_stylesheet_directory() . $theme_scripts );
 	
 	wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . $theme_scripts, array(), $js_version, true );
+
+	// Scrollmagic
+	// wp_enqueue_script( 'scroll-magic', get_stylesheet_directory_uri(  ) . '/js/ScrollMagic.js' , array(), $the_theme->get( 'Version' ), false );
+
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -154,4 +159,6 @@ function understrap_add_site_child_info() {
 
 
 // require_once get_theme_file_path( 'inc/child-custom-post-types.php' );
+
+
 

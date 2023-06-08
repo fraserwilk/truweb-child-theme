@@ -15,7 +15,7 @@
             </div>
         </section>
 
-        <div class="album py-3 bg-light">
+        <section class="album py-3 bg-light">
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
                 <?php
@@ -34,10 +34,11 @@
                         $project_view_url = $field['project_view_url'];
                         $project_edit_url = $field['project_edit_url'];
                         $project_date = $field['project_date'];
+                        $project_id = $field['project_id'];
 
                         // Output the portfolio item using the retrieved values
                         echo '<div class="col">
-                                <div class="card shadow-sm">
+                                <article class="card shadow-sm" id="' . $project_id . '">
                                     <img src="' . $project_image . '" class="bd-placeholder-img card-img-top border" width="100%" height="225" role="img" aria-label="Portfolio Image" preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <div class="card-body">
                                         <h3 class="card-title">' . $project_title . '</h3>
@@ -48,14 +49,14 @@
                                             <small class="text-muted">Launched: ' . $project_date . '</small>
                                         </div>
                                     </div>
-                                </div>
+                                </article>
                             </div>';
                         }
                     }
                 ?>
                 </div>
             </div>
-        </div>
+                </section>
 
     </main>
 </section>

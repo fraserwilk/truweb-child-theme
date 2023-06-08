@@ -327,6 +327,27 @@
                                     "default_value": "",
                                     "placeholder": "",
                                     "parent_repeater": "field_645df11bd7ed1"
+                                },
+                                {
+                                    "key": "field_647fe6df19670",
+                                    "label": "Project ID",
+                                    "name": "project_id",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "a number please",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "project-",
+                                    "append": "",
+                                    "parent_repeater": "field_645df11bd7ed1"
                                 }
                             ]
                         }
@@ -616,5 +637,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684741475
+    "modified": 1686109598
 }
